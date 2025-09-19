@@ -27,9 +27,9 @@
     <div class="container">
 
         <div class="alert alert-success mb-3" role="alert">
-            <p>制作した譜面を覚えている限り全てまとめました</p>
+            <p>制作した譜面を覚えている限りまとめました</p>
             <hr>
-            <p class="mb-0">θxはslx相当難易度, θθxはstx相当難易度, θ?はsl,st,★体系に合わない譜面をまとめています</p>
+            <p class="mb-0">θ*はsl*相当, θθ*はst*相当, θ?はsl,st,★に合わない譜面をまとめています</p>
         </div>
 
 
@@ -82,10 +82,10 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
-                    $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
+                    $("<td width='30%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // Comment
-                    $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
